@@ -65,3 +65,11 @@ sdd-*/
 # Allow printing-services subproject
 !printing-services/
 !printing-services/**/*
+
+# Node / app artifacts (printing-services, phase-4-implement)
+node_modules/
+.vite/
+.next/
+.env
+.env.local
+.env.*.local
